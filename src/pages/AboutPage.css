@@ -1,0 +1,7 @@
+.btn.btn-secondary {
+    display: block;
+    margin: auto;
+}
+.btn.btn-secondary a {
+    text-decoration: none;
+}
