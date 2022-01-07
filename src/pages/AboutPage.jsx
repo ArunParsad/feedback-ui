@@ -1,19 +1,21 @@
-import Button from "../components/shared/Button";
+
 import Card from "../components/shared/Card";
 import './AboutPage.css'
 import { Link } from "react-router-dom";
 const AboutPage = () => {
   return (
     <div className="container">
-      <Card>
+    <Card>
+      <div className='about'>
+        <h1>About This Project</h1>
+        <p>This is a React app to leave feedback for a product or service</p>
+        <p>Version: 1.0.0</p>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga
-          rerum quo at, deleniti earum voluptate culpa odit expedita tempora!
+          <Link to='/'>Back To Home</Link>
         </p>
-      </Card>
-      <Link to={'/'}>
-      <Button version="secondary">Back to home</Button>
-      </Link>
+      </div>
+    </Card>
     </div>
   );
 };
